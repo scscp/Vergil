@@ -30,7 +30,7 @@
 ♦️ For Debian 10 Only For First Time Installation (Update Repo) <br>
  
   ```html
- apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
+ apt update -y && apt upgrade -y && apt dist-upgrade -y 
   ```
   ♦️ For Ubuntu 20.04 Only For First Time Installation (Update Repo) <br>
   
