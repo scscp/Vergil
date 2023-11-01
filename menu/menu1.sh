@@ -251,7 +251,6 @@ echo -e " ${BICyan}│  ${BICyan}UPTIME          :  $uptime ${NC} "
 echo -e " ${BICyan}│  ${BICyan}CPU             :  ${cores}cores @${freq}MHz (${cpu_usage}) ${NC} "
 echo -e " ${BICyan}│  ${BICyan}RAM             :  ${uram}MB / ${tram}MB ${NC} "
 echo -e " ${BICyan}│  ${BICyan}CITY            :  $CITY ${NC} "
-echo -e " ${BICyan}│  ${BICyan}REGION          :  $REGION ${NC} "
 echo -e " ${BICyan}│  ${BICyan}CLIENT          :  $Name ${NC} "
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
@@ -285,7 +284,7 @@ case $opt in
 8) clear ; addhost ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
-6969) clear ; wget https://raw.githubusercontent.com/NevermoreSSH/Vergil/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
+6969) clear ; wget https://raw.githubusercontent.com/scscp/Vergil/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
