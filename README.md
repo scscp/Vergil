@@ -2,7 +2,7 @@
 <h2 align="center">
 ⏩ AUTOSCRIPT SSH / XRAY WEBSOCKET MULTIPORT 443 DETAILS ⏪
 
-  By NevermoreSSH 
+  CANDRA IRAWAN
 <br> 
   
 <h2 align="center"> ♦️Supported Linux Distribution♦️</h2>
@@ -21,7 +21,7 @@
 2. Minimum 1GB RAM TO USE THIS SCRIPT
 3. Tested from VPS DigitalOcean, Centerhop, Melbicom
 
-## Register IP ( PM username & IP-VPS ) : <a href="https://t.me/todfix667" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+## Register IP ( PM username & IP-VPS ) : <a href="https://t.me/CandraVpnz" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 
 <br>
 </b>
@@ -40,7 +40,7 @@
 ♦️ Installation Link  <br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/NevermoreSSH/Vergil/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/scscp/Vergil/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
   ```
 <b>
 
