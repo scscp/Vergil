@@ -9,6 +9,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "" 
 echo -e " [\e[36m•1\e[0m] CHANGE DOMAIN VPS"
 echo -e " [\e[36m•2\e[0m] Renew Certificate DOMAIN"
+echo -e " [\e[31m•3\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e   ""
@@ -21,6 +22,7 @@ echo -e ""
 case $opt in
 1) clear ; add-host ;;
 2) clear ; certv2ray ;;
+3) clear ; slow ;;
 0) clear ; menu-set ;;
 x) exit ;;
 *) echo "Anda salah tekan" ; sleep 1 ; menu-domain ;;
